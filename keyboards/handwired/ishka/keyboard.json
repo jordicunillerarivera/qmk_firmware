@@ -4,9 +4,9 @@
     "url": "",
     "maintainer": "Jordi Cunillera",
     "usb": {
-        "vid": "0x0001",
-        "pid": "0x4A43",
-        "device_version": "0.0.1"
+        "device_version": "0.0.1",
+        "vid": "0x4A43",
+        "pid": "0x0001"
     },
     "features": {
         "bootmagic": false,
@@ -28,7 +28,7 @@
         "soft_serial_pin": "D2"
     },
     "processor": "atmega32u4",
-    "bootloader": "atmel-dfu",
+    "bootloader": "caterina",
     "layout_aliases": {
         "LAYOUT_ishka": "LAYOUT"
     },
