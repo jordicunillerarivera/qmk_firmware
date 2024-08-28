@@ -32,11 +32,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		                            KC_LSFT,      KC_TRNS,      KC_SPC,                                 KC_ENT,      KC_TRNS,      KC_LCTL
 		),
 	[2] = LAYOUT(
-		KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS, 
-		KC_WH_U,      KC_BTN1,      KC_MS_U,      KC_BTN2,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS, 
-		KC_WH_D,      KC_MS_L,      KC_MS_D,      KC_MS_R,      TG(3),                                  KC_TRNS,     KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS, 
-		KC_ASTR,      KC_LPRN,      KC_AT,        KC_NUBS,      LSFT(KC_BSPC),                          KC_NUM,      KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS, 
-		                            KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS
+		KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS,      KC_TRNS,      RALT(KC_TRNS), 
+		KC_WH_U,      KC_BTN1,      KC_MS_U,      KC_BTN2,      KC_TRNS,                                RALT(KC_3),  KC_CIRC,      RALT(KC_1),   KC_LBRC,      KC_RBRC, 
+		KC_WH_D,      KC_MS_L,      KC_MS_D,      KC_MS_R,      TG(3),                                  KC_NUBS,     RSFT(KC_2),   KC_AMPR,      RSFT(KC_8),   RSFT(KC_9), 
+		KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_EXLM,     RSFT(KC_UNDS),RALT(KC_2),   KC_QUOT,      KC_NUHS, 
+		                            KC_LSFT,      KC_TRNS,      KC_RALT,                                KC_TRNS,     KC_TRNS,      KC_TRNS
 		),
 	[3] = LAYOUT(
 		KC_ESC,       KC_1,         KC_2,         KC_3,         KC_4,                                   KC_5,        KC_6,         KC_7,         KC_8,         KC_9, 
@@ -50,5 +50,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS, 
 		KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS, 
 		KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS,      KC_TRNS,      KC_TRNS, 
-		                            KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS)
+		                            KC_TRNS,      KC_TRNS,      KC_TRNS,                                KC_TRNS,     KC_TRNS,      KC_TRNS
+	    )
 };
