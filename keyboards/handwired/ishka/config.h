@@ -17,5 +17,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-// Pro Micro Pins      RX1
-#define SPLIT_HAND_PIN D2
+// Split with eeprom
+#define EE_HANDS
